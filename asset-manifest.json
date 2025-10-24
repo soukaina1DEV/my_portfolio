@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.4d6d3f07.css",
-    "main.js": "/my_portfolio/static/js/main.f4bd8eb8.js",
+    "main.js": "/my_portfolio/static/js/main.0110de32.js",
     "static/css/64.bba8fa55.chunk.css": "/my_portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.98920275.chunk.js": "/my_portfolio/static/js/64.98920275.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/my_portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.5b121768.chunk.js": "/my_portfolio/static/js/769.5b121768.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/my_portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/soukaina.jpg": "/my_portfolio/static/media/soukaina.3c54a925d54b55564cd4.jpg",
+    "static/media/WhatsApp Image 2025-10-24 à 17.34.18_4cace415.jpg": "/my_portfolio/static/media/WhatsApp Image 2025-10-24 à 17.34.18_4cace415.3f83a9bbe3e68d05a1bc.jpg",
     "static/media/Agustina.woff": "/my_portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/fsbmLogo.png": "/my_portfolio/static/media/fsbmLogo.38b9ec0f881aac5ffeb6.png",
     "static/media/contactMailDark.svg": "/my_portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -16,7 +16,7 @@
     "index.html": "/my_portfolio/index.html",
     "static/media/talksCardBack.svg": "/my_portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.4d6d3f07.css.map": "/my_portfolio/static/css/main.4d6d3f07.css.map",
-    "main.f4bd8eb8.js.map": "/my_portfolio/static/js/main.f4bd8eb8.js.map",
+    "main.0110de32.js.map": "/my_portfolio/static/js/main.0110de32.js.map",
     "64.bba8fa55.chunk.css.map": "/my_portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.98920275.chunk.js.map": "/my_portfolio/static/js/64.98920275.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/my_portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.4d6d3f07.css",
-    "static/js/main.f4bd8eb8.js"
+    "static/js/main.0110de32.js"
   ]
 }
