@@ -18,7 +18,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Soukaina EL Fajjaj",
+  username: "Soukaina",
   title: "Hello World!, I'm Soukaina El Fajjaj",
   subTitle: emoji(
     "Full Stack Web Developer passionate about creating modern and responsive web applications using HTML, CSS, JavaScript, and Python. Skilled in database management with PostgreSQL and MongoDB."
