@@ -23,10 +23,10 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
-                {" "}
-                {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                Hello World!, I'm{" "}
+                <span className="name">Soukaina El Fajjaj</span>
               </h1>
+
               <p
                 className={
                   isDark
@@ -42,8 +42,9 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={greeting.resumeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
@@ -53,14 +54,10 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+            <img
+              alt="man sitting on table"
+              src={require("../../assets/images/soukaina.jpg")}
+            ></img>
           </div>
         </div>
       </div>

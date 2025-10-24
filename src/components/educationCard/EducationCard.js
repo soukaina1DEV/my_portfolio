@@ -28,7 +28,9 @@ export default function EducationCard({school}) {
               <img
                 crossOrigin={"anonymous"}
                 ref={imgRef}
-                className="education-roundedimg"
+                className={`education-roundedimg ${
+                  isDark ? "dark-mode-logo" : ""
+                }`}
                 src={school.logo}
                 alt={school.schoolName}
               />

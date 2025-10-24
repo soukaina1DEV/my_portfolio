@@ -41,12 +41,17 @@
 }
 
 .education-roundedimg {
-  object-fit: cover;
+  object-fit: contain;
   margin-right: 2rem;
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+}
+
+/* 🌙 White logo in dark mode */
+.dark-mode-logo {
+  filter: brightness(0) invert(1);
 }
 
 .education-card-right {
@@ -71,7 +76,7 @@
 
 .education-text-desc {
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .education-text-bullets > ul {
@@ -105,7 +110,7 @@
   .education-roundedimg {
     width: 4rem;
     height: 4rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
     margin-right: 0px;
   }
 }

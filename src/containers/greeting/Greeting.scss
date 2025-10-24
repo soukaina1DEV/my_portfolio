@@ -23,6 +23,12 @@
 
 .greeting-main {
   display: flex;
+  flex-direction: row-reverse; /* 👈 هادي كتخلي الصورة في اليمين والنص في اليسار */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2,5rem;
+  padding: 3rem 0;
 }
 
 .greeting-main > * {
@@ -43,19 +49,40 @@
 }
 
 .greeting-text {
-  font-size: 70px;
-  line-height: 1.1;
-  color: $textColor !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 46px !important;
+  font-weight: 700;
+  color: #1c1c1c;
+  margin-bottom: 0.5rem;
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-family: "Playfair Display", "Poppins", serif; /* خط راقي بستايل أنيق */
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  color: #3b2f4a; /* بنفسجي غامق مائل للرمادي */
+  font-weight: 400;
+  font-style: italic; /* يعطي إحساس ناعم */
+  letter-spacing: 0.8px;
+  max-width: 700px;
+  margin-top: 1.2rem;
+  text-align: justify;
+  transition: all 0.3s ease;
+}
+
+.greeting-text span.name {
+  color: #f6b15c; 
+  font-weight: 600;
+  font-size: 46px;
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  width: 400px;
   height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 25px rgba(108, 99, 255, 0.4);
+  transition: transform 0.3s ease;
 }
 
 .wave-emoji {
@@ -63,7 +90,7 @@
   animation-iteration-count: infinite;
   animation-name: wave;
   display: inline-block;
-  transform-origin: 70% 70%;
+  transform-origin: 90% 90%;
 }
 
 @keyframes wave {
@@ -125,3 +152,7 @@
     width: auto;
   }
 }
+
+
+
+
