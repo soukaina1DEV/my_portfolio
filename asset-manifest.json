@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.ab8d24bb.css",
-    "main.js": "/my_portfolio/static/js/main.d7b30691.js",
+    "main.js": "/my_portfolio/static/js/main.f2f7e710.js",
     "static/css/64.bba8fa55.chunk.css": "/my_portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.98920275.chunk.js": "/my_portfolio/static/js/64.98920275.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/my_portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.5b121768.chunk.js": "/my_portfolio/static/js/769.5b121768.chunk.js",
-    "static/media/soukaina.jpg": "/my_portfolio/static/media/soukaina.3aee2639dc20f2ce4f80.jpg",
+    "static/media/soukaina1.jpg": "/my_portfolio/static/media/soukaina1.3aee2639dc20f2ce4f80.jpg",
     "static/media/Montserrat-Regular.ttf": "/my_portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/my_portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/fsbmLogo.png": "/my_portfolio/static/media/fsbmLogo.38b9ec0f881aac5ffeb6.png",
@@ -16,7 +16,7 @@
     "index.html": "/my_portfolio/index.html",
     "static/media/talksCardBack.svg": "/my_portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ab8d24bb.css.map": "/my_portfolio/static/css/main.ab8d24bb.css.map",
-    "main.d7b30691.js.map": "/my_portfolio/static/js/main.d7b30691.js.map",
+    "main.f2f7e710.js.map": "/my_portfolio/static/js/main.f2f7e710.js.map",
     "64.bba8fa55.chunk.css.map": "/my_portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.98920275.chunk.js.map": "/my_portfolio/static/js/64.98920275.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/my_portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.ab8d24bb.css",
-    "static/js/main.d7b30691.js"
+    "static/js/main.f2f7e710.js"
   ]
 }
