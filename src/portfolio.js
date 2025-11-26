@@ -3,12 +3,12 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: false, // set false to disable splash screen
+  enabled: false // set false to disable splash screen
 };
 
 // Summary And Greeting Section
@@ -24,7 +24,7 @@ const greeting = {
     "Full Stack Web Developer passionate about creating modern and responsive web applications using HTML, CSS, JavaScript, and Python. Skilled in database management with PostgreSQL and MongoDB."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1IECf-w41raFjVfLa9aIH5-CfajbvVthC/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1CH7IyovuNn5802XMiIC46Y1m4UO4xwL2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -83,7 +83,7 @@ const educationInfo = {
       subHeader:
         "Licence en Sciences Mathématiques et Informatique – Bases de Données",
       duration: "2021 – 2022",
-      logo: require("./assets/images/fsbmLogo.png") 
+      logo: require("./assets/images/fsbmLogo.png")
     },
     {
       schoolName: "Lycée Fatima Al Fihria, Casablanca",
@@ -114,11 +114,10 @@ const techStack = {
   displayCodersrank: true
 };
 
-
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: false //Set it to true to show workExperiences Section
   // experience: [
   //   {
   //     role: "Software Engineer",
@@ -188,8 +187,6 @@ const bigProjects = {
   // ],
   display: false
 };
-
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -323,7 +320,6 @@ const contactInfo = {
   number: "+212 6 03 40 02 30",
   email_address: "soukaina.elfajjaj123@gmail.com"
 };
-
 
 // Twitter Section
 
